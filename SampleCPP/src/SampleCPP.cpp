@@ -16,5 +16,6 @@ int main() {
 	cout<<"Enter your name:"<<endl;
 	getline(cin,name);
 	cout<<"Hello "<<name<<endl;
+	cout<<"Length of name is "<<name.length();
 	return 0;
 }
